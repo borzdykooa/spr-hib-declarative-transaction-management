@@ -1,0 +1,14 @@
+2018-10-31 15:53:25,014 INFO  - HHH000412: Hibernate Core {5.2.16.Final}
+2018-10-31 15:53:25,016 INFO  - HHH000206: hibernate.properties not found
+2018-10-31 15:53:25,062 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-31 15:53:25,295 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-10-31 15:53:25,954 INFO  - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@19593091'
+2018-10-31 15:53:26,210 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-10-31 15:53:26,348 INFO  - Method findAll is called in TraineeDao
+2018-10-31 15:53:26,381 INFO  - List of Trainees: [Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=2, name=Ivan Ishchenko, language=Java, experience=6)), Trainee(id=2, name=Denis Byhovsky, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6))]
+2018-10-31 15:53:26,406 INFO  - Method save is called in TraineeDao
+2018-10-31 15:53:26,407 INFO  - Trainee(id=5, name=Alexandr Alexandrov, trainer=Trainer(id=3, name=Andrei Reut, language=Java, experience=6)) has been saved successfully!
+2018-10-31 15:53:26,441 INFO  - Method find is called in TrainerDao
+2018-10-31 15:53:26,443 INFO  - Trainer(id=5, name=Andrei Reut, language=Java, experience=6) has been found
+2018-10-31 15:53:26,454 INFO  - Method save is called in TrainerDao
+2018-10-31 15:53:26,455 INFO  - Trainer(id=9, name=Nikolai Nikolaev, language=C, experience=12) has been saved successfully!
